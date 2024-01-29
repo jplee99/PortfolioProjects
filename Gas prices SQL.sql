@@ -44,6 +44,7 @@ regular.Value AS 'Cents per Litre'
 -- FuelType sales can be changed to: 
 -- 'Gross sales of gasoline', 'Net sales of diesel oil', and
 -- 'Net sales of liquified petroleum gas' 
+	
 WHERE s.FuelType='Net sales of gasoline' AND
 -- Edit below to pick a specific province or exclude locations.
 -- The below statement excludes Canada because it is a total value.
